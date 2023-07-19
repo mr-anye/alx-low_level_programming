@@ -5,7 +5,8 @@
 /* betty style doc for function main goes there */
 /**
  * main - main is the start of the program
- * return : returns 0 when successful
+ *
+ * Return: always 0
  */
 
 int main(void)
