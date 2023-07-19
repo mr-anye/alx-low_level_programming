@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	int numb = 0;
+	int numb = '48';
 
-	while (numb <= 9)
+	while (numb <= '57')
 	{
 		putchar(numb);
 		numb++;
