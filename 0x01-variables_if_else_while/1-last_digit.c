@@ -4,8 +4,8 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Start of the program
- * Return : Returns 0 when successful
+ * main - main is the start of the program
+ * return : returns 0 when successful
  */
 
 int main(void)
