@@ -6,9 +6,9 @@
  */
 int main(void)
 {
-	char numb;
+	int numb;
 
-	for (numb = '0'; numb <= 'f'; numb++)
+	for (numb = 0x0; numb <= 0xf; numb++)
 	{
 		putchar(numb);
 	}
