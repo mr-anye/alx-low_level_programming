@@ -1,1 +1,1 @@
-This is my first C Readme File
+0x06. C - More pointers, arrays and strings
