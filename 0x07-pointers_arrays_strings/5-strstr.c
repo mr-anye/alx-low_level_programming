@@ -1,31 +1,26 @@
-/*
- * 0x07. C - Even more pointers, arrays and strings
- * task 5
- */
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 /**
- * _strstr - returns the number of characters in the initial segment
- * @haystack: array refrance
- * @needle: array refrance
- * Return: array refrance
+ * _strstr - Entry point
+ * @haystack: input
+ * @needle: input
+ * Return: Always 0 (Success)
  */
 char *_strstr(char *haystack, char *needle)
 {
-	int i, j;
-
-	if (needle[0] != '\0')
-		return (NULL);
-	for (i = 0; needle[i] != '\0'; i++)
+	for (; *haystack != '\0'; haystack++)
 	{
-		for (j = 0; haystack[j] != '\0'; j++)
+		char *l = haystack;
+		char *p = needle;
+
+		while (*l == *p && *p != '\0')
 		{
-			if (haystack[j] == needle[i])
-				return (haystack + j);
+			l++;
+			p++;
 		}
+
+		if (*p == '\0')
+			return (haystack);
 	}
 
-	return (NULL);
-
+	return (0);
 }
