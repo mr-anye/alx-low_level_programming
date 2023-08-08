@@ -1,1 +1,1 @@
-0x0B. C - malloc, free
+0x06. C - More pointers, arrays and strings
