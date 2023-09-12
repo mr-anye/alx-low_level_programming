@@ -1,6 +1,16 @@
-0x0B. C - malloc, free
+0x0E. C - Structures, typedef
+
 General
-What is the difference between automatic and dynamic allocation
-What is malloc and free and how to use them
-Why and when use malloc
-How to use valgrind to check for memory leak
+What are structures, when, why and how to use them
+How to use typedef
+
+Resources
+Read or watch:
+
+0x0d. Structures.pdf
+struct (C programming language)
+Documentation: structures
+0x0d. Typedef and structures.pdf
+typedef
+Programming in C by Stephen Kochan - Chapter 8, Working with Structures p163-189
+The Lost Art of C Structure Packing (Advanced - not mandatory)
